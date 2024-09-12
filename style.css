@@ -79,7 +79,7 @@ a.contact-btn:hover{
 }
 header{
     position: relative;
-    background-image: url('images/img4.jpg');
+    background-image: url(images/img4.jpg);
     height: 70rem;
     background-position: center;
     background-repeat: no-repeat;
