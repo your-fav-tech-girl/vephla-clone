@@ -1,0 +1,804 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    background-color: #fff;
+    height: 7rem;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 1;
+
+}
+
+.navbar{
+    position: relative;
+    height: 7rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.vephla-nav{
+    position: absolute;
+    top: 1.7rem;
+    left: 40.7rem;
+}
+.logo{
+    position: absolute;
+    top: 1.3rem;
+    left: 0;
+    width: 10rem;
+}
+.logo img{
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.vephla-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 200;
+    max-width: 90rem;
+    padding: 0 2.5rem;
+}
+.vephla-nav a:hover{
+    color: #7971ea;;
+}
+a.active{
+    border-bottom: 0.2rem solid #7971ea;;
+    padding-bottom: 1rem;
+}
+a.contact-btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #7971ea;;
+    padding: 1.4rem 2rem;
+    border: 0.1rem solid #7971ea;;
+    border-radius: 4.5rem;
+    float: right;
+    margin-top: 1.5rem;
+    margin-right: 3.0rem;
+    text-transform: uppercase;
+}
+a.contact-btn:hover{
+    color: #fff;
+    background-color: #0d0cb5;
+    border: 0.1rem solid #0d0cb5;
+}
+header{
+    position: relative;
+    background-image: url(Images/img4.jpg);
+    height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.638);
+    height: 70rem;
+    width: 100%;
+}
+.width{
+    max-width: 110rem;
+    margin: 0 auto;
+    height: 70rem;
+}
+.vephla{
+    position: absolute;
+    left: 23rem;
+    top: 20rem;
+    width: 50rem;
+}
+.vephla h1{
+    color: whitesmoke;
+    font-size: 4.4rem;
+    font-weight: 600;
+    padding: 1.5rem 0;
+}
+.vephla p{
+    font-size: 1.8rem;
+    word-spacing: 0.1rem;
+    color: grey;
+    font-weight: 400;
+    padding: 1.0rem 0;
+    line-height: 2.4rem;
+    width: 47rem;
+}
+.vephla a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #7971ea;;
+    padding: 1.5rem 3rem;
+    border: 0.1rem solid #7971ea;;
+    border-radius: 4.5rem;
+    margin-top: 1.4rem;
+    text-transform: uppercase;
+}
+.vephla a:hover{
+    color: #fff;
+    background-color: #0d0cb5;
+    border: 0.1rem solid #0d0cb5;
+}
+.form{
+    position: absolute;
+    top: 18rem;
+    right:6rem;
+    width: 45rem;
+    height: 40rem;
+    background-color: whitesmoke;
+    border-radius: 0.7rem;
+}
+label{
+    color: #000;
+    font-size: 2.3rem;
+    padding: 4rem 0 0.5rem 2rem;
+    font-weight: 400;
+}
+input{
+    border:0.1rem solid lightgray;
+    color: lightgray;
+    font: 1.4rem;
+    outline: 0.1rem solid rgba(239, 239, 239, 0.338);
+    border-radius: 0.3rem;
+    padding: 1.5rem 22rem 1.5rem 2rem;
+    margin: 1rem 0 1rem 2rem;
+}
+input:focus{
+    border: 1px solid blue;
+}
+input::placeholder{
+    font-size: 15px;
+}
+
+.form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #7971ea;;
+    padding: 1.5rem 3.0rem;
+    border: 0.1rem solid #7971ea;;
+    border-radius: 4.5rem;
+    margin-left: 2.0rem;
+    text-transform: uppercase;
+}
+.form a:hover{
+    color: #fff;
+    background-color: #0d0cb5;
+    border: 0.1rem solid #0d0cb5;
+}
+.courses{
+    background-color: #7971ea;
+    height: 42rem;
+}
+.courses h1{
+    color: whitesmoke;
+    font-size: 4.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8rem 0 3rem;
+}
+.section-1{
+    position: relative;
+    height: 77rem;
+    background-color: #fff;
+}
+.frontend{
+    position: absolute;
+    top: -10rem;
+    left:12rem;
+    width: 33rem;
+    height: 65.6rem;
+    background-color: whitesmoke;
+}
+.frontend img, .ui img, .data img{
+    width: 100%;
+}
+.months{
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 4rem 0 3rem 2rem;
+}
+.ui{
+    position: absolute;
+    top: -10rem;
+    right: 10rem;
+    width: 33rem;
+    height: 66.7rem;
+    background-color: whitesmoke;
+}
+.data{
+    position: absolute;
+    top: -10rem;
+    left:48rem;
+    width: 33rem;
+    height: 69.5rem;
+    background-color: whitesmoke;
+}
+.frontend:hover, .ui:hover, .data:hover{
+    top: -12rem;
+    box-shadow: 0.5rem 0.5rem 10rem lightgrey ;
+    transition: all .3s ease-in-out;
+}
+a.course{
+    text-decoration: none;
+    color: #7971ea;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem 0 2rem 2rem;
+}
+.course-text{
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: start;
+    padding: 1rem 0 1rem 2rem;
+    width: 28rem;
+    line-height: 1.5;
+}
+a.read{
+    text-decoration: none;
+    color: #7971ea;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 1rem 0 7rem 2rem;
+}
+.student{
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: 200;
+    padding: 2rem 10rem 0 2rem;
+}
+.number{
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: 200;
+    padding: 1.4rem 0 3.6rem 2rem;
+    border-left: 0.16rem solid rgba(26, 24, 24, 0.312);
+}
+.front-price, .data-price, .ui-price{
+    background-color: #7971ea;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1.5rem 3rem;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+.front-price{
+    position: absolute;
+    top: 19.5rem;
+    right: 0;
+}
+.data-price{
+    position: absolute;
+    top: 23rem;
+    right: 0;
+}
+.ui-price{
+    position: absolute;
+    top: 19.8rem;
+    right: 0;
+}
+.prev{
+    position: absolute;
+    bottom: 40px;
+    left: 650px;
+}
+.next{
+    position: absolute;
+    bottom: 40px;
+    right: 650px;
+}
+.prev a, .next a{
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: #7971ea;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 0 0.7rem;
+}
+.prev a:hover, .next a:hover{
+    background-color: #0d0cb5;
+    transition: all .3s ease-in-out;
+}
+
+section{
+    background-color: white;
+}
+.section-2{
+    max-width: 90rem;
+    margin: 0 auto;
+    height: 40rem;
+}
+.section-2 h1{
+    color: #000;
+    font-size: 5rem;
+    font-weight: bolder;
+    width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 0 3rem;
+}
+.section-2 p{
+    color: #666;
+    font-size: 2rem;
+    font-weight: lighter;
+    width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.section-3{
+    position: relative;
+    max-width: 110rem;
+    height: 57rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.lady{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 63rem;
+}
+.man{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 63rem;
+}
+.lady img, .man img{
+    width: 100%;
+}
+.section3-text{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 40rem;
+}
+.section4-text{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 40rem;
+}
+.section3-text h2, .section4-text h2{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    line-height: 3.2rem;
+    padding: 0 2rem 1rem 2rem;
+}
+.section3-text p, .section4-text p{
+    color: #666;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: start;
+    padding: 2rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.1rem;
+}
+.section3-text span, .section4-text span{
+    color: #7971ea;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    padding: 2rem 2rem;
+}
+.section3-text i,.section4-text i{
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #7971ea;
+    border-radius: 99%;
+    margin-left: 2rem;
+}
+.section3-text a{
+    text-decoration: none;
+    color: #7971ea;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.section-6{
+    max-width: 90rem;
+    margin: 0 auto;
+    height: 25rem;
+}
+.section-6 h1{
+    color: #000;
+    font-size: 5rem;
+    font-weight: bolder;
+    width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7rem 0 3rem;
+}
+.section-6 p{
+    color: #666;
+    font-size: 2rem;
+    font-weight: lighter;
+    width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.section-7{
+    position: relative;
+    height: 83rem;
+    background-color: #fff;
+}
+.product{
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 33rem;
+    height: 60rem;
+    border: 0.1rem solid gray;
+    background-color: white;
+}
+.fullstack{
+    position: absolute;
+    top: 10rem;
+    left: 48rem;
+    width: 33rem;
+    height: 60rem;
+    border: 0.1rem solid gray;
+    background-color: white;
+}
+.analytic{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 33rem;
+    height: 60rem;
+    border: 0.1rem solid gray;
+    background-color: white;
+}
+.course-text1{
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem 0 1rem 2rem;
+    width: 28rem;
+    line-height: 2.6rem;
+}
+.para{
+    color: lightgray;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10rem;
+}
+.para1{
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 2rem 0;
+}
+.product-img{
+    position: absolute;
+    top: 2rem;
+    left: 20rem;
+    width: 15rem;
+    
+}
+.fullstack-img{
+    position: absolute;
+    top: 3.5rem;
+    left: 58rem;
+    width: 15rem;
+}
+.analytic-img{
+    position: absolute;
+    top: 20px;
+    right: 18rem;
+    width: 15rem;
+}
+.product-img img, .fullstack-img img, .analytic-img img, .section8-img img{
+    width: 100%;
+    border-radius: 100%;
+}
+.section-8{
+    position: relative;
+    width: 100%;
+    height:79rem ;
+    background-image: url(Images/hero_1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 0, 0.826);
+    height: 79rem;
+    width: 100%;
+}
+.section8-img{
+    position: absolute;
+    top: 7rem;
+    left: 55rem;
+    width: 19rem;
+    
+}
+.odif{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 28.5rem 0 2.5rem;
+}
+.italic{
+    color: #fff;
+    font-style: italic;
+    font-size: 2.2rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+.section-9{
+    position: relative;
+    height: 92rem;
+    width: 100%;
+    overflow: hidden;
+
+}
+.section-9 h1{
+    text-align: center;
+    font-size: 4.6rem;
+    padding: 5rem 0 3rem;
+    font-weight: 700;
+}
+.blob-2{
+    position: absolute;
+    bottom: 0;
+    left: -16rem;
+}
+.blob-2 img, .person img, .blob-1 img{
+    width: 100%;
+}
+.blob-1{
+    position: absolute;
+    top: 0;
+    right: -10rem;
+    width: 40rem;
+}
+.person{
+    position: absolute;
+    bottom: 0;
+    left: 66rem;
+    width: 55rem;
+}
+.reason{
+    position: absolute;
+    top: 19rem;
+    left: 30rem;
+    background-color: #fff;
+    width: 35rem;
+    height: 45rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 10rem grey ;
+}
+.reason-icon{
+    position: absolute;
+    top: 19rem;
+    left: 32rem;
+}
+.cap{
+    color: #fff;
+    padding: 1.6rem;
+    font-size: 1.2rem;
+    margin: 1.3rem 0;
+    background-color: #7971ea;
+    border-radius: 100%;
+}
+.act{
+    margin-top: 3.6rem;
+}
+.reason p{
+    text-align: start;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #666;
+    width: 26rem;
+    padding: 1.5rem 0 2rem;
+    margin-left: 8rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.1rem;
+}
+.active{
+    margin-top: 2rem;
+}
+.sec{
+    background-color: whitesmoke;
+    height: 75rem;
+}
+.section-10{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.section-10 h1{
+    font-size: 4.6rem;
+    font-weight: 700;
+    padding: 6rem 2rem 1rem;
+}
+.section-10 p{
+    color: #666;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+}
+.name{
+    padding: 1.5rem 10rem 1.5rem 2rem;
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    font-weight: 510;
+    font-size: 1.6rem;
+}
+.subject{
+    padding: 1.5rem 44rem 1.5rem 2rem;
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    font-weight: 510;
+    font-size: 1.6rem;
+    margin-bottom: 2.2rem;
+}
+.message{
+    padding: 1rem 44.5rem 0.5rem 1.5rem ;
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    font-weight: 510;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.section-10 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #7971ea;;
+    padding: 1.5rem 10rem;
+    border: 0.1rem solid #7971ea;;
+    border-radius: 4.5rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+.section-10 a:hover{
+    color: #fff;
+    background-color: #3030f6;
+    border: 1px solid #3030f6;
+}
+.footer{
+    position: relative;
+    max-width: 110rem;
+    height: 115rem;
+    margin: 0 auto;
+}
+.footer h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+.vep{
+    padding: 15rem 0 1rem;
+}
+.footer-text{
+    color: #666;
+    font-size: 1.7rem;
+    font-weight: 350;
+    width: 35rem;
+    line-height: 2.4rem;
+    padding: 1rem 0;
+}
+.talk{
+    position: absolute;
+    top: 15rem;
+    left: 45rem;
+}
+.talk a{
+    text-decoration: none;
+    color: #7971ea;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+.centre{
+    position: absolute;
+    top: 15rem;
+    right: 4rem;
+    width: 36.5rem;
+}
+.centre h2{
+    padding: 0 2rem;
+}
+.centre p{
+    color: #666;
+    font-size: 1.7rem;
+    font-weight: 350;
+    line-height: 2.4rem;
+    padding: 1rem 0 0 2rem;
+}
+.centre input{
+    padding: 1.5rem 3rem 1.5rem 0.5rem;
+    border: 1px solid grey;
+    font-size: 1.6rem;
+    color: grey;
+    border-radius: 0;
+}
+.centre a{
+    text-decoration: none;
+    background-color: #7971ea;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1.4rem 3rem;
+    font-weight: 700;
+}
+.centre a:hover{
+    background-color: #3030f6;
+}
+.track{
+    position: absolute;
+    top: 35rem;
+    right: 4rem;
+    width: 34.5rem;
+}
+.track h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: grey;
+    letter-spacing: 0.1rem;
+    padding: 2rem 0;
+}
+.track a{
+    text-decoration: none;
+    color: #7971ea;
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 1.8rem;
+}
+.copy{
+    max-width: 110rem;
+    margin: 0 auto;
+    height: 4rem;
+}
+.copy p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: grey;
+    letter-spacing: 0.1rem;
+    padding: 4rem 0 10rem;
+    text-align: center;
+}a.soft{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #7971ea;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    padding: 4rem 0 10rem;
+}
+a.soft:hover, .talk a:hover, .track a:hover{
+    color: #3030f6;
+}
